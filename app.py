@@ -5,8 +5,8 @@ app = Flask(__name__)
 # Liste des élèves — ajoutez votre ligne ici
 eleves = [
     {"prenom": "Loïc", "nom": "Dumont", "github": "loic-prof"},
+    {"prenom": "Anais", "nom": "Amirouche", "github": "anais-lab", "groupe": "Groupe 1"},
 ]
-
 TEMPLATE = """
 <!DOCTYPE html>
 <html lang="fr">
@@ -33,6 +33,7 @@ TEMPLATE = """
                 <th>Prénom</th>
                 <th>Nom</th>
                 <th>GitHub</th>
+                <th>Groupe</th>
             </tr>
         </thead>
         <tbody>
@@ -45,6 +46,7 @@ TEMPLATE = """
                         @{{ eleve.github }}
                     </a>
                 </td>
+                <td>{{ eleve.groupe }}</td>
             </tr>
             {% endfor %}
         </tbody>
