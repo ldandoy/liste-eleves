@@ -5,6 +5,7 @@ app = Flask(__name__)
 # Liste des élèves — ajoutez votre ligne ici
 eleves = [
     {"prenom": "Loïc", "nom": "Dumont", "github": "loic-prof"},
+     {"prenom": "Chahinez", "nom": "Boubekeur", "github": "mariabkr26", "groupe": "Groupe 1"},
     {"prenom": "Alake Faridath", "nom": "ABOGOURIN", "github": "faridathabogourin", "groupe": "Gr1"},
     {"prenom": "Nora", "nom": "Boukal", "github": "loic-prof"},
 ]
