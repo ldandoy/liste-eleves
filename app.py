@@ -4,10 +4,10 @@ app = Flask(__name__)
 
 # Liste des élèves — ajoutez votre ligne ici
 eleves = [
-    {"prenom": "Loïc", "nom": "Dumont", "github": "loic-prof"},
-     {"prenom": "Chahinez", "nom": "Boubekeur", "github": "mariabkr26", "groupe": "Groupe 1"},
-    {"prenom": "Alake Faridath", "nom": "ABOGOURIN", "github": "faridathabogourin", "groupe": "Gr1"},
-    {"prenom": "Nora", "nom": "Boukal", "github": "loic-prof"},
+    {"prenom": "joyce", "nom": "Esso", "github": "joyce-prof"},
+     {"prenom": "Berdina", "nom": "Yokani sita", "github": "Berdina93", "groupe 4": "Groupe 4"},
+    {"prenom": "sarah", "nom": "Banza", "github": "faridathabogourin", "groupe4": "Gr4"},
+    {"prenom": "chacha", "nom": "Esso", "github": "chacha-prof"},
 ]
     
 TEMPLATE = """
