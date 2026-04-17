@@ -8,8 +8,9 @@ eleves = [
      {"prenom": "Chahinez", "nom": "Boubekeur", "github": "mariabkr26", "groupe": "Groupe 1"},
     {"prenom": "Alake Faridath", "nom": "ABOGOURIN", "github": "faridathabogourin", "groupe": "Gr1"},
     {"prenom": "Nora", "nom": "Boukal", "github": "loic-prof"},
+    {"prenom": "Kyle", "nom": "DOUGBEY", "github": "kylemeric", "groupe": "Groupe 4"},
+
 ]
-    
 TEMPLATE = """
 <!DOCTYPE html>
 <html lang="fr">
